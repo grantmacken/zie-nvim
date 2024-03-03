@@ -269,7 +269,7 @@ later(function()
   local plugin = require('plugins.git')
   require('gitsigns').setup(plugin.config)
   plugin.mappings()
-end )
+end)
 
 now(function()
  add({

@@ -20,7 +20,7 @@ default: $(initBuild) $(luaBuild) $(afterBuild)
 info:
 	echo $(initBuild) 
 	echo $(luaBuild) 
-	echo $(afterBuild) | sed s% %--%g
+	echo $(afterBuild)
 
 
 $(CONFIG)/lua/%.lua: lua/%.lua
